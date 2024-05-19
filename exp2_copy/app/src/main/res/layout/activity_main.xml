@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeins"
+        android:text="@string/welcomeins"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:width="300sp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/namevalue"
+        android:ems="13"
+        android:inputType="text"
+        android:hint="Name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactvalue"
+        android:hint="Contact No."
+        android:ems="13"
+        android:inputType="text" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitname"
+        android:layout_marginTop="20sp"
+        android:text="Sumbit"
+        android:backgroundTint="#3B3BA1"
+        android:ems="10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetbtn"
+        android:layout_marginTop="20sp"
+        android:text="Reset Button"
+        android:backgroundTint="#3B3BA1"
+        android:ems="10" />
+
+
+
+</LinearLayout>

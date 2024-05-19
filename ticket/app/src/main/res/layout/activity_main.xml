@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+    <!-- EditText to enter passenger name -->
+    <EditText
+        android:id="@+id/EdtPassengerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Passenger Name" />
+    <!-- EditText to enter destination -->
+    <EditText
+        android:id="@+id/idEdtDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Destination" />
+    <!-- EditText to enter departure time -->
+    <EditText
+        android:id="@+id/idEdtDepartureTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Departure Time" />
+    <!-- EditText to enter seat number -->
+    <EditText
+        android:id="@+id/idEdtSeatNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Seat Number" />
+    <!-- Button for booking a ticket -->
+    <Button
+        android:id="@+id/idBtnAddTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Book Ticket"
+        android:textAllCaps="false" />
+    <!-- Button for viewing booking history -->
+    <Button
+        android:id="@+id/idBtnShowTickets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="View Booking History"
+        android:textAllCaps="false" />
+</LinearLayout>

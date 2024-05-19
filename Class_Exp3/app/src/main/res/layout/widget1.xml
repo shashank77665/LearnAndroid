@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Class_Exp3.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    android:theme="@style/Theme.Class_Exp3.AppWidgetContainer">
+
+    <AnalogClock
+        android:layout_width="189dp"
+        android:layout_height="184dp"
+        >
+
+
+    </AnalogClock>
+
+    <DigitalClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="100sp"
+        android:textSize="40sp">
+
+    </DigitalClock>
+
+</LinearLayout>

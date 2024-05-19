@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Experiment3_widget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:theme="@style/Theme.Experiment3_widget.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clock"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <DigitalClock
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:gravity="center"
+        android:textSize="40sp"/>
+
+
+
+
+</LinearLayout>

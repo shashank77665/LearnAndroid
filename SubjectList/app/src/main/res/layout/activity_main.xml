@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Select Subject Type"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/btn_theory"
+        android:text="Theory"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/btn_practical"
+        android:text="Practical"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/btn_hybrid"
+        android:text="Hybrid"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/container"/>
+
+
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:id="@+id/frag1"-->
+<!--        android:name="com.example.subjectlist.Theory"/>-->
+
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:id="@+id/frag2"-->
+<!--        android:name="com.example.subjectlist.Practical"/>-->
+
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:id="@+id/frag3"-->
+<!--        android:name="com.example.subjectlist.Hybrid"/>-->
+
+
+
+
+
+</LinearLayout>
